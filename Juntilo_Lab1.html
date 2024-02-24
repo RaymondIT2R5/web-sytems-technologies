@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+</head>
+<body>
+
+<h2 align="center" >Student Registration Form</h2>
+
+<form>
+    <table border="1" style="border: 1px rgb(2, 48, 75)">
+        <tr>
+            <td align="center" bgcolor="lightgrey" width="350">First Name</td>
+            <td width="1500"><input type="text" id="fn" style="width: 95%;" required></td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">Last Name</td>
+            <td><input type="text" id="ln" style="width: 95%;;"></td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">Email</td>
+            <td><input type="text" id="email" style="width: 95%;;" required></td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">Gender</td>
+            <td>
+                <label>
+                    <select id="Gender" style="width: 95%;;" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">Date of Birth</td>
+            <td>
+                <input type="text" id="DoB" style="width: 95%;;" required>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">Address</td>
+            <td><textarea id="address" style="width: 95%;;" required></textarea></td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">City</td>
+            <td><input type="text" id="City" style="width: 95%;;" required></td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="lightgrey">Zip Code</td>
+            <td><input type="text" id="zc" style="width: 95%;;" required></td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgrey"></td>
+            <td><button type="submit" style="background-color: rgb(0, 145, 87); height: 50px; width: 100px;">Submit</button></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
